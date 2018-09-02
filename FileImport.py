@@ -18,3 +18,4 @@ root.fileName = filedialog.askopenfilename(filetypes=(
 # else:
 #     showerror("Save", "Unknown extension '{}'".format(Path(root.fileName).suffix))
 #
+print(root.fileName)
